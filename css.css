@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Columna izquierda */
+  .sidebar {
+    width: 30%;
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .circlo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #1eb437;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .contact p {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  
+  h3 {
+    margin: 20px 0 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .skills {
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  .skills li {
+    margin-bottom: 8px;
+  }
+  
+  /* Columna derecha */
+  .content {
+    width: 70%;
+    padding: 30px;
+  }
+  
+  .content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 25px;
+  }
+  
+  .project h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #444;
+  }
+  
+  .project ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 13px;
+    color: #555;
+  }
